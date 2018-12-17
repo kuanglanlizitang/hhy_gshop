@@ -134,6 +134,8 @@
 import HeaderTop from '../../components/HeaderTop/HeaderTop.vue';
 import ShopList from '../../components/ShopList/ShopList.vue';
 
+import {goods} from '../../api'
+
 export default {
 	data(){
 		return{
@@ -141,7 +143,7 @@ export default {
 			shoplist:[]
 		}
 	},
-    mounted() {
+    async mounted() {
         //创建一个swiper对象
         new Swiper('.swiper-container', {
             // direction: 'vertical', // 垂直切换选项
@@ -152,7 +154,9 @@ export default {
             pagination: {
                 el: '.swiper-pagination'
             }
-        });
+        })
+		const result= await goods()
+		console.log(result)
     },
     components: {
         HeaderTop,
