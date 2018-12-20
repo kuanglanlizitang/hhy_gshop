@@ -13,10 +13,11 @@ const portfinder = require('portfinder')
 const express = require('express')
 const app = express()   //创建express应用程序
 var appData = require('../data.json')//加载本地数据文件
+var address = appData.address
 var seller = appData.seller//获取对应的本地数据
 var goods = appData.goods
 var ratings = appData.ratings
-var tab_swiper = appData.tab_swiper
+var tabSwiper = appData.tabSwiper
 var shoplist = appData.shoplist
 var apiRoutes = express.Router()  // 获取一个 express 的路由实例
 app.use('/api', apiRoutes)
@@ -55,6 +56,12 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       poll: config.dev.poll,
     },
 		before(app) {
+			app.get('/api/address/40.10038,116.36867', (req, res) => {
+				res.json({
+					errno: 0,
+					data: address
+				})
+			}),
 			app.get('/api/seller', (req, res) => {
 				res.json({
 					errno: 0,
@@ -73,10 +80,10 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 					data: ratings
 				})
 			}),
-			app.get('/api/tab_swiper', (req, res) => {
+			app.get('/api/tabSwiper', (req, res) => {
 				res.json({
 					errno: 0,
-					data: tab_swiper
+					data: tabSwiper
 				})
 			}),
 			app.get('/api/shoplist', (req, res) => {

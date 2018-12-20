@@ -1,4 +1,12 @@
 {
+	"address": {
+		"address": "北京市昌平区337省道",
+		"city": "北京市",
+		"geohash": "40.10038,116.36867",
+		"latitude": "40.10038",
+		"longitude": "116.36867",
+		"name": "昌平区北七家宏福科技园(337省道北)"
+	},
 	"seller": {
 		"name": "粥品香坊（回龙观）",
 		"description": "蜂鸟专送",
@@ -1327,132 +1335,391 @@
 			"recommend": []
 		}
 	],
-	"tab_swiper": [{
-		"img": "./images/nav/1.jpg",
+	"tabSwiper": [{
+		"img": "static/images/nav/1.jpg",
 		"name": "甜品饮品"
 	}, {
-		"img": "./images/nav/2.jpg",
+		"img": "static/images/nav/2.jpg",
 		"name": "商超便利"
 	}, {
-		"img": "./images/nav/3.jpg",
+		"img": "static/images/nav/3.jpg",
 		"name": "美食"
 	}, {
-		"img": "./images/nav/4.jpg",
+		"img": "static/images/nav/4.jpg",
 		"name": "简餐"
 	}, {
-		"img": "./images/nav/5.jpg",
+		"img": "static/images/nav/5.jpg",
 		"name": "新店特惠"
 	}, {
-		"img": "./images/nav/6.jpg",
+		"img": "static/images/nav/6.jpg",
 		"name": "准时达"
 	}, {
-		"img": "./images/nav/7.jpg",
+		"img": "static/images/nav/7.jpg",
 		"name": "预订早餐"
 	}, {
-		"img": "./images/nav/8.jpg",
+		"img": "static/images/nav/8.jpg",
 		"name": "土豪推荐"
 	}, {
-		"img": "./images/nav/9.jpg",
+		"img": "static/images/nav/1.jpg",
 		"name": "甜品饮品1"
 	}, {
-		"img": "./images/nav/10.jpg",
+		"img": "static/images/nav/2.jpg",
 		"name": "商超便利1"
 	}, {
-		"img": "./images/nav/11.jpg",
+		"img": "static/images/nav/3.jpg",
 		"name": "美食1"
 	}, {
-		"img": "./images/nav/12.jpg",
+		"img": "static/images/nav/4.jpg",
 		"name": "简餐1"
 	}, {
-		"img": "./images/nav/13.jpg",
+		"img": "static/images/nav/5.jpg",
 		"name": "新店特惠1"
 	}, {
-		"img": "./images/nav/14.jpg",
+		"img": "static/images/nav/6.jpg",
 		"name": "准时达1"
 	}, {
-		"img": "./images/nav/15.jpg",
+		"img": "static/images/nav/7.jpg",
 		"name": "预订早餐1"
 	}, {
-		"img": "./images/nav/16.jpg",
+		"img": "static/images/nav/8.jpg",
 		"name": "土豪推荐1"
 	}],
-	"shoplist": [{
-			"img": "./images/shop/1.jpg",
-			"shop_name": "锄禾日当午，汗滴禾下土",
-			"shop_detail_ul": ["保", "准", "票"],
-			"on": 3,
-			"half": 1,
-			"off": 1,
-			"rating_section": 3.6,
-			"order_section": "月售106单",
-			"delivery": "硅谷专送",
-			"start_deliver": "¥20起送",
-			"distribution": "配送费约¥5"
+	"shoplist": [
+		{
+			"name": "肯德基",
+			"address": "上海市宝山区淞宝路155弄18号星月国际商务广场1层",
+			"id": 1,
+			"latitude": 31.38098,
+			"longitude": 121.50146,
+			"location": [
+				121.50146,
+				31.38098
+			],
+			"phone": "1232313124324",
+			"category": "快餐便当/简餐",
+			"supports": [
+				{
+					"description": "已加入“外卖保”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "保",
+					"id": 7,
+					"name": "外卖保",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				},
+				{
+					"description": "已加入“外卖准”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "准",
+					"id": 7,
+					"name": "外卖准",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				},
+				{
+					"description": "已加入“外卖满”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "满",
+					"id": 7,
+					"name": "外卖满",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				}
+			],
+			"status": 0,
+			"recent_order_num": 615,
+			"rating_count": 389,
+			"rating": 3.6,
+			"promotion_info": "他依然有人有人有人有人有人",
+			"piecewise_agent_fee": {
+				"tips": "配送费约¥5"
+			},
+			"opening_hours": [
+				"8:30/20:30"
+			],
+			"license": {
+				"catering_service_license_image": "",
+				"business_license_image": ""
+			},
+			"is_new": true,
+			"is_premium": true,
+			"image_path": "static/images/shop/1.jpg",
+			"identification": {
+				"registered_number": "",
+				"registered_address": "",
+				"operation_period": "",
+				"licenses_scope": "",
+				"licenses_number": "",
+				"licenses_date": "",
+				"legal_person": "",
+				"identificate_date": null,
+				"identificate_agency": "",
+				"company_name": ""
+			},
+			"float_minimum_order_amount": 20,
+			"float_delivery_fee": 5,
+			"distance": "19.5公里",
+			"order_lead_time": "40分钟",
+			"description": "好吃的",
+			"delivery_mode": {
+				"color": "57A9FF",
+				"id": 1,
+				"is_solid": true,
+				"text": "蜂鸟专送"
+			},
+			"activities": [
+				{
+					"icon_name": "减",
+					"name": "满减优惠",
+					"description": "满30减5，满60减8",
+					"icon_color": "f07373",
+					"id": 1,
+					"_id": "591bec73c2bbc84a6328a1e7"
+				}
+			]
 		},
 		{
-			"img": "./images/shop/2.jpg",
-			"shop_name": "锄禾日当午，汗滴禾下土",
-			"shop_detail_ul": ["保", "准", "票"],
-			"on": 3,
-			"half": 1,
-			"off": 1,
-			"rating_section": 3.6,
-			"order_section": "月售106单",
-			"delivery": "硅谷专送",
-			"start_deliver": "¥20起送",
-			"distribution": "配送费约¥5"
+			"name": "麦当劳",
+			"address": "上海市宝山区淞宝路155弄18号星月国际商务广场1层",
+			"id": 1,
+			"latitude": 31.38098,
+			"longitude": 121.50146,
+			"location": [
+				121.50146,
+				31.38098
+			],
+			"phone": "1232313124324",
+			"category": "快餐便当/简餐",
+			"supports": [
+				{
+					"description": "已加入“外卖保”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "保",
+					"id": 7,
+					"name": "外卖保",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				},
+				{
+					"description": "已加入“外卖准”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "准",
+					"id": 7,
+					"name": "外卖准",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				}
+			],
+			"status": 0,
+			"recent_order_num": 615,
+			"rating_count": 389,
+			"rating": 2.2,
+			"promotion_info": "他依然有人有人有人有人有人",
+			"piecewise_agent_fee": {
+				"tips": "配送费约¥5"
+			},
+			"opening_hours": [
+				"8:30/20:30"
+			],
+			"license": {
+				"catering_service_license_image": "",
+				"business_license_image": ""
+			},
+			"is_new": true,
+			"is_premium": true,
+			"image_path": "static/images/shop/2.jpg",
+			"identification": {
+				"registered_number": "",
+				"registered_address": "",
+				"operation_period": "",
+				"licenses_scope": "",
+				"licenses_number": "",
+				"licenses_date": "",
+				"legal_person": "",
+				"identificate_date": null,
+				"identificate_agency": "",
+				"company_name": ""
+			},
+			"float_minimum_order_amount": 20,
+			"float_delivery_fee": 5,
+			"distance": "19.5公里",
+			"order_lead_time": "40分钟",
+			"description": "好吃的",
+			"delivery_mode": {
+				"color": "57A9FF",
+				"id": 1,
+				"is_solid": true,
+				"text": "蜂鸟专送"
+			},
+			"activities": [
+				{
+					"icon_name": "减",
+					"name": "满减优惠",
+					"description": "满30减5，满60减8",
+					"icon_color": "f07373",
+					"id": 1,
+					"_id": "591bec73c2bbc84a6328a1e7"
+				}
+			]
 		},
 		{
-			"img": "./images/shop/3.jpg",
-			"shop_name": "锄禾日当午，汗滴禾下土",
-			"shop_detail_ul": ["保", "准", "票"],
-			"on": 3,
-			"half": 1,
-			"off": 1,
-			"rating_section": 3.6,
-			"order_section": "月售106单",
-			"delivery": "硅谷专送",
-			"start_deliver": "¥20起送",
-			"distribution": "配送费约¥5"
+			"name": "彭德楷黄焖鸡米饭",
+			"address": "上海市宝山区淞宝路155弄18号星月国际商务广场1层",
+			"id": 1,
+			"latitude": 31.38098,
+			"longitude": 121.50146,
+			"location": [
+				121.50146,
+				31.38098
+			],
+			"phone": "1232313124324",
+			"category": "快餐便当/简餐",
+			"supports": [
+				{
+					"description": "已加入“外卖准”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "准",
+					"id": 7,
+					"name": "外卖准",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				},
+				{
+					"description": "已加入“外卖满”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "满",
+					"id": 7,
+					"name": "外卖满",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				}
+			],
+			"status": 0,
+			"recent_order_num": 615,
+			"rating_count": 389,
+			"rating": 2.6,
+			"promotion_info": "他依然有人有人有人有人有人",
+			"piecewise_agent_fee": {
+				"tips": "配送费约¥5"
+			},
+			"opening_hours": [
+				"8:30/20:30"
+			],
+			"license": {
+				"catering_service_license_image": "",
+				"business_license_image": ""
+			},
+			"is_new": true,
+			"is_premium": true,
+			"image_path": "static/images/shop/3.jpg",
+			"identification": {
+				"registered_number": "",
+				"registered_address": "",
+				"operation_period": "",
+				"licenses_scope": "",
+				"licenses_number": "",
+				"licenses_date": "",
+				"legal_person": "",
+				"identificate_date": null,
+				"identificate_agency": "",
+				"company_name": ""
+			},
+			"float_minimum_order_amount": 20,
+			"float_delivery_fee": 5,
+			"distance": "19.5公里",
+			"order_lead_time": "40分钟",
+			"description": "好吃的",
+			"delivery_mode": {
+				"color": "57A9FF",
+				"id": 1,
+				"is_solid": true,
+				"text": "蜂鸟专送"
+			},
+			"activities": [
+				{
+					"icon_name": "减",
+					"name": "满减优惠",
+					"description": "满30减5，满60减8",
+					"icon_color": "f07373",
+					"id": 1,
+					"_id": "591bec73c2bbc84a6328a1e7"
+				}
+			]
 		},
 		{
-			"img": "./images/shop/4.jpg",
-			"shop_name": "锄禾日当午，汗滴禾下土",
-			"shop_detail_ul": ["保", "准", "票"],
-			"on": 3,
-			"half": 1,
-			"off": 1,
-			"rating_section": 3.6,
-			"order_section": "月售106单",
-			"delivery": "硅谷专送",
-			"start_deliver": "¥20起送",
-			"distribution": "配送费约¥5"
-		},
-		{
-			"img": "./images/shop/3.jpg",
-			"shop_name": "锄禾日当午，汗滴禾下土",
-			"shop_detail_ul": ["保", "准", "票"],
-			"on": 3,
-			"half": 1,
-			"off": 1,
-			"rating_section": 3.6,
-			"order_section": "月售106单",
-			"delivery": "硅谷专送",
-			"start_deliver": "¥20起送",
-			"distribution": "配送费约¥5"
-		},
-		{
-			"img": "./images/shop/1.jpg",
-			"shop_name": "锄禾日当午，汗滴禾下土",
-			"shop_detail_ul": ["保", "准", "票"],
-			"on": 3,
-			"half": 1,
-			"off": 1,
-			"rating_section": 3.6,
-			"order_section": "月售106单",
-			"delivery": "硅谷专送",
-			"start_deliver": "¥20起送",
-			"distribution": "配送费约¥5"
+			"name": "尚品麻辣香锅",
+			"address": "上海市宝山区淞宝路155弄18号星月国际商务广场1层",
+			"id": 1,
+			"latitude": 31.38098,
+			"longitude": 121.50146,
+			"location": [
+				121.50146,
+				31.38098
+			],
+			"phone": "1232313124324",
+			"category": "快餐便当/简餐",
+			"supports": [
+				{
+					"description": "已加入“外卖保”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "保",
+					"id": 7,
+					"name": "外卖保",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				},
+				{
+					"description": "已加入“外卖满”计划，食品安全有保障",
+					"icon_color": "999999",
+					"icon_name": "满",
+					"id": 7,
+					"name": "外卖满",
+					"_id": "591bec73c2bbc84a6328a1e5"
+				}
+			],
+			"status": 0,
+			"recent_order_num": 615,
+			"rating_count": 389,
+			"rating": 4.1,
+			"promotion_info": "他依然有人有人有人有人有人",
+			"piecewise_agent_fee": {
+				"tips": "配送费约¥5"
+			},
+			"opening_hours": [
+				"8:30/20:30"
+			],
+			"license": {
+				"catering_service_license_image": "",
+				"business_license_image": ""
+			},
+			"is_new": true,
+			"is_premium": true,
+			"image_path": "static/images/shop/4.jpg",
+			"identification": {
+				"registered_number": "",
+				"registered_address": "",
+				"operation_period": "",
+				"licenses_scope": "",
+				"licenses_number": "",
+				"licenses_date": "",
+				"legal_person": "",
+				"identificate_date": null,
+				"identificate_agency": "",
+				"company_name": ""
+			},
+			"float_minimum_order_amount": 20,
+			"float_delivery_fee": 5,
+			"distance": "19.5公里",
+			"order_lead_time": "40分钟",
+			"description": "好吃的",
+			"delivery_mode": {
+				"color": "57A9FF",
+				"id": 1,
+				"is_solid": true,
+				"text": "蜂鸟专送"
+			},
+			"activities": [
+				{
+					"icon_name": "减",
+					"name": "满减优惠",
+					"description": "满30减5，满60减8",
+					"icon_color": "f07373",
+					"id": 1,
+					"_id": "591bec73c2bbc84a6328a1e7"
+				}
+			]
 		}
 	]
 }
